@@ -786,7 +786,7 @@ def evaluateRandomly(encoder, decoder, n=10):
 #
 
 hidden_size = 128
-batch_size = 32
+batch_size = 128
 
 input_lang, output_lang, train_dataloader = get_dataloader(batch_size)
 
